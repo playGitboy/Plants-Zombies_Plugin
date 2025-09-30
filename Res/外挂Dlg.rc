@@ -1,0 +1,30 @@
+#define IDD_DLG1 1000
+#define IDC_SHP1 1011
+#define IDC_STC3 -1
+#define IDC_GRP1 -1
+#define IDC_BigSun 1002
+#define IDC_Add 1003
+#define IDC_ReSet 1004
+#define IDC_BToD 1005
+#define IDC_SToB 1006
+#define IDC_IMG1 1001
+#define IDC_Name -1
+#define IDC_o_0 -1
+IDD_DLG1 DIALOGEX 6,6,182,159
+CAPTION "Plants vs Zombies"
+FONT 9,"ËÎÌå",400,0,134
+STYLE 0x10CE0800
+EXSTYLE 0x00000008
+BEGIN
+  CONTROL "",IDC_SHP1,"Static",0x50000010,8,138,168,2,0x00000000
+  CONTROL "Code By PlayGitboy",IDC_STC3,"Static",0x50000000,102,146,74,10,0x00000000
+  CONTROL "* My First Work *",IDC_GRP1,"Button",0x50000007,8,44,166,86,0x00000000
+  CONTROL "Every BigSun Costs 100 SunShine!",IDC_BigSun,"Button",0x50010003,22,82,144,14,0x00000000
+  CONTROL "Add SunShine Continuously!",IDC_Add,"Button",0x50010003,22,68,122,14,0x00000000
+  CONTROL "Original World! o_0",IDC_ReSet,"Button",0x50010003,22,54,100,14,0x00000000
+  CONTROL "BigSun To Diamand!(Add Money~)",IDC_BToD,"Button",0x50010003,22,96,136,14,0x00000000
+  CONTROL "SmallSun To BigSun!(Add SunShine~)",IDC_SToB,"Button",0x50010003,22,110,150,14,0x00000000
+  CONTROL "ICO_MAIN",IDC_IMG1,"Static",0x50000203,14,8,34,30,0x00000000
+  CONTROL "Plants vs Zombies Plug-in",IDC_Name,"Static",0x50000000,58,28,108,10,0x00000000
+  CONTROL "O(¡É_¡É)O~",IDC_o_0,"Static",0x50000000,88,12,46,10,0x00000000
+END
